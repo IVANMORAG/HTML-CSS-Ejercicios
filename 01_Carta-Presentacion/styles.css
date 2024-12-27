@@ -106,10 +106,12 @@ section{
 
 .business-card .back .info {
     position: absolute;
+    padding: 25px;
     top: 50%; /* Mueve .info hacia abajo */
     left: 0;
     width: 100%;
     z-index: 1; /* Capa inferior */
+    text-align: center;
 }
 
 .business-card .back .image{
