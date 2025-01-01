@@ -1,0 +1,45 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color:#ffff
+}
+
+form {
+    padding: 50px 50px;
+    box-shadow: 0 0 20px #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2{
+    color:#fff9;
+    font-size: 35px;
+}
+
+label{
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border:2px solid #ffff;
+    color: #535050;
+    outline: none;
+}
