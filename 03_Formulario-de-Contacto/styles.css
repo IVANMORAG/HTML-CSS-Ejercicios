@@ -10,10 +10,11 @@ body{
 
 form {
     padding: 50px 50px;
-    box-shadow: 0 0 20px #ffffff;
+    background-color: #858585;
+    box-shadow: 0 0 30px #ffffff;
     border-radius: 30px;
     text-align: center;
-    width: 340px;
+    width: 440px;
 }
 
 .input-group{
@@ -23,7 +24,7 @@ form {
 }
 
 h2{
-    color:#fff9;
+    color:rgb(255, 255, 255);
     font-size: 35px;
 }
 
@@ -40,6 +41,40 @@ input, textarea{
     margin-bottom: 20px;
     background-color: #ffffff;
     border:2px solid #ffff;
-    color: #535050;
+    color: #000000;
     outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #4b4747;
+}
+
+.form-text{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-text a{
+    padding-top: 20px;
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn{
+    font-size: 16px;
+    color: #000000;
+    border: 0;
+    border-radius: 25px;
+    background-color: #9b9797;;
+    box-shadow: 0 0 20px rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(58, 58, 58);
+    color: #ffffff;
 }
