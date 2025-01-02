@@ -70,7 +70,7 @@ input::placeholder, textarea::placeholder{
     border: 0;
     border-radius: 25px;
     background-color: #9b9797;;
-    box-shadow: 0 0 20px rgb(49, 49, 49);
+    box-shadow: 0 0 20px rgb(124, 124, 124);
     cursor: pointer;
 }
 
