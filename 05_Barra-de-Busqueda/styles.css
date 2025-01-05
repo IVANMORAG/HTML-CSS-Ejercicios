@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(#3F51B5, #7986CB);
+}
+
+.buscar{
+    position: absolute;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    box-shadow: 0 0 10px #fff,0 0 30px #fff;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #05a1da;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover input{
+    width: 240px;
+}
+
+.buscar input:focus{
+    width: 240px;
+}
